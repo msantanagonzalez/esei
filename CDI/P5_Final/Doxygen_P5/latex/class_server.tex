@@ -1,0 +1,163 @@
+\hypertarget{class_server}{}\section{Server Class Reference}
+\label{class_server}\index{Server@{Server}}
+
+
+\hyperlink{class_server}{Server} implementation of the system  public.  
+
+
+Inheritance diagram for Server\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_server}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_server_a766ab923c89579e657e52be4f4ae2997}{Server} (int clients)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_server}{Server} constructor, serves to create new clients. \end{DoxyCompactList}\item 
+int\mbox{[}$\,$\mbox{]} \hyperlink{class_server_ae9a3984aeeb93c13eaccfe33612148b0}{get\+Job} ()  throws Remote\+Exception
+\begin{DoxyCompactList}\small\item\em Method \hyperlink{class_server_ae9a3984aeeb93c13eaccfe33612148b0}{get\+Job()}, return jobs of the stack. \end{DoxyCompactList}\item 
+void \hyperlink{class_server_ac394c6ed1551ad7ad4626ef1bbc1a2f5}{union} (int\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} partial\+Result, int start, int end)  throws Remote\+Exception
+\begin{DoxyCompactList}\small\item\em Method union, connects the parts of the result image. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{class_server_ac4b46a4fdb4d54989142dee6b3e3f551}{create\+File} (String filename)  throws File\+Not\+Found\+Exception 	
+\begin{DoxyCompactList}\small\item\em Method create\+File, writes in a file representation Mandelbrot. \end{DoxyCompactList}\item 
+static void \hyperlink{class_server_ad90c92078da8d9c8a084e7cbc6cff4af}{main} (String args\mbox{[}$\,$\mbox{]})
+\begin{DoxyCompactList}\small\item\em Method Main of the project, where other programs are initialized. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Stack$<$ int\mbox{[}$\,$\mbox{]}$>$ {\bfseries jobs}\hypertarget{class_server_ac8de6e7c3420f1bcc262d9eda19141c0}{}\label{class_server_ac8de6e7c3420f1bcc262d9eda19141c0}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static int\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]} {\bfseries result}\hypertarget{class_server_a6ff98d91c732a89679431fad2c17ba4b}{}\label{class_server_a6ff98d91c732a89679431fad2c17ba4b}
+
+\item 
+static int {\bfseries Nclients}\hypertarget{class_server_aa5c8c04397758a903dda11ec51d406dc}{}\label{class_server_aa5c8c04397758a903dda11ec51d406dc}
+
+\item 
+static int {\bfseries jobsC}\hypertarget{class_server_a9cea4903754e8fe6fa8bc7d194a44f76}{}\label{class_server_a9cea4903754e8fe6fa8bc7d194a44f76}
+
+\item 
+static Registry {\bfseries registry}\hypertarget{class_server_a23960caa819012af45800c856775294a}{}\label{class_server_a23960caa819012af45800c856775294a}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{class_server}{Server} implementation of the system  public. 
+
+\subsection{Constructor \& Destructor Documentation}
+\index{Server@{Server}!Server@{Server}}
+\index{Server@{Server}!Server@{Server}}
+\subsubsection[{\texorpdfstring{Server(int clients)}{Server(int clients)}}]{\setlength{\rightskip}{0pt plus 5cm}Server.\+Server (
+\begin{DoxyParamCaption}
+\item[{int}]{clients}
+\end{DoxyParamCaption}
+)}\hypertarget{class_server_a766ab923c89579e657e52be4f4ae2997}{}\label{class_server_a766ab923c89579e657e52be4f4ae2997}
+
+
+\hyperlink{class_server}{Server} constructor, serves to create new clients. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em integer} & clients  public \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\index{Server@{Server}!create\+File@{create\+File}}
+\index{create\+File@{create\+File}!Server@{Server}}
+\subsubsection[{\texorpdfstring{create\+File(\+String filename)}{createFile(String filename)}}]{\setlength{\rightskip}{0pt plus 5cm}static void Server.\+create\+File (
+\begin{DoxyParamCaption}
+\item[{String}]{filename}
+\end{DoxyParamCaption}
+) throws File\+Not\+Found\+Exception\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{class_server_ac4b46a4fdb4d54989142dee6b3e3f551}{}\label{class_server_ac4b46a4fdb4d54989142dee6b3e3f551}
+
+
+Method create\+File, writes in a file representation Mandelbrot. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em String} & filename \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em File\+Not\+Found\+Exception} & public static \\
+\hline
+\end{DoxyExceptions}
+\index{Server@{Server}!get\+Job@{get\+Job}}
+\index{get\+Job@{get\+Job}!Server@{Server}}
+\subsubsection[{\texorpdfstring{get\+Job()}{getJob()}}]{\setlength{\rightskip}{0pt plus 5cm}int \mbox{[}$\,$\mbox{]} Server.\+get\+Job (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) throws Remote\+Exception}\hypertarget{class_server_ae9a3984aeeb93c13eaccfe33612148b0}{}\label{class_server_ae9a3984aeeb93c13eaccfe33612148b0}
+
+
+Method \hyperlink{class_server_ae9a3984aeeb93c13eaccfe33612148b0}{get\+Job()}, return jobs of the stack. 
+
+\begin{DoxyReturn}{Returns}
+int\mbox{[}\mbox{]}  public 
+\end{DoxyReturn}
+\index{Server@{Server}!main@{main}}
+\index{main@{main}!Server@{Server}}
+\subsubsection[{\texorpdfstring{main(\+String args[])}{main(String args[])}}]{\setlength{\rightskip}{0pt plus 5cm}static void Server.\+main (
+\begin{DoxyParamCaption}
+\item[{String}]{args\mbox{[}$\,$\mbox{]}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{class_server_ad90c92078da8d9c8a084e7cbc6cff4af}{}\label{class_server_ad90c92078da8d9c8a084e7cbc6cff4af}
+
+
+Method Main of the project, where other programs are initialized. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em args} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void  public static 
+\end{DoxyReturn}
+\index{Server@{Server}!union@{union}}
+\index{union@{union}!Server@{Server}}
+\subsubsection[{\texorpdfstring{union(int[][] partial\+Result, int start, int end)}{union(int[][] partialResult, int start, int end)}}]{\setlength{\rightskip}{0pt plus 5cm}void Server.\+union (
+\begin{DoxyParamCaption}
+\item[{int}]{partial\+Result\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]}, }
+\item[{int}]{start, }
+\item[{int}]{end}
+\end{DoxyParamCaption}
+) throws Remote\+Exception}\hypertarget{class_server_ac394c6ed1551ad7ad4626ef1bbc1a2f5}{}\label{class_server_ac394c6ed1551ad7ad4626ef1bbc1a2f5}
+
+
+Method union, connects the parts of the result image. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em int\mbox{[}$\,$\mbox{]}\mbox{[}$\,$\mbox{]}} & partial\+Result, integer start, integer end \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Remote\+Exception} & public \\
+\hline
+\end{DoxyExceptions}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Alfredo/workspace/\+Practica5/src/Server.\+java\end{DoxyCompactItemize}

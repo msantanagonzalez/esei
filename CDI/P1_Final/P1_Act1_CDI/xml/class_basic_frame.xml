@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="class_basic_frame" kind="class" language="Java" prot="public">
+    <compoundname>BasicFrame</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">JFrame</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_basic_frame_1aeba0120c57b6855a4cd9ba2a8b421018" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>BasicFrame.BasicFrame</definition>
+        <argsstring>(int type, long initTime, long finalTime, long maxTime, ArrayList&lt; ArrayList&lt; Long &gt;&gt; times)</argsstring>
+        <name>BasicFrame</name>
+        <param>
+          <type>int</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>initTime</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>finalTime</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>maxTime</declname>
+        </param>
+        <param>
+          <type>ArrayList&lt; ArrayList&lt; Long &gt;&gt;</type>
+          <declname>times</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="class_basic_frame" kindref="compound">BasicFrame</ref> Constructor. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>type</parametername>
+<parametername>initTime</parametername>
+<parametername>finalTime</parametername>
+<parametername>maxTime</parametername>
+<parametername>times</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>public </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+<para>Makes a layout with x rows but 1 col</para><para>Set the layout to the JFrame object</para><para>Configuration of the window</para><para>Adjust dimension</para><para>Set main windows location and allow user to finish the execution by closing the window</para><para>Creates Panel object, the amount of panels it´s equal to the ArrayList size</para><para>Creates a default panel to show general information about the Threads </para>        </inbodydescription>
+        <location file="src/BasicFrame.java" line="22" column="1" bodyfile="src/BasicFrame.java" bodystart="22" bodyend="55"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Creates a JFrame object to build the main windows for the Graphics  public. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>JFrame</label>
+      </node>
+      <node id="0">
+        <label>BasicFrame</label>
+        <link refid="class_basic_frame"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>JFrame</label>
+      </node>
+      <node id="2">
+        <label>BasicFrame</label>
+        <link refid="class_basic_frame"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/BasicFrame.java" line="14" column="1" bodyfile="src/BasicFrame.java" bodystart="14" bodyend="56"/>
+    <listofallmembers>
+      <member refid="class_basic_frame_1aeba0120c57b6855a4cd9ba2a8b421018" prot="public" virt="non-virtual"><scope>BasicFrame</scope><name>BasicFrame</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

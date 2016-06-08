@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="_with_runnable1__2_8java" kind="file" language="Java">
+    <compoundname>WithRunnable1_2.java</compoundname>
+    <innerclass refid="class_with_runnable1__2" prot="public">WithRunnable1_2</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="7" refid="class_with_runnable1__2" refkind="compound"><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_with_runnable1__2" kindref="compound">WithRunnable1_2</ref><sp/></highlight><highlight class="keyword">implements</highlight><highlight class="normal"><sp/>Runnable{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="15" refid="class_with_runnable1__2_1aabb7116851a8c69678945a7953319603" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_with_runnable1__2_1aabb7116851a8c69678945a7953319603" kindref="member">run</ref>(){</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>System.out.println(</highlight><highlight class="stringliteral">&quot;|WithRunnable|-<sp/>Hello<sp/>world<sp/>i&apos;m<sp/>a<sp/>java<sp/>thread&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="src/WithRunnable1_2.java"/>
+  </compounddef>
+</doxygen>

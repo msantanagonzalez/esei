@@ -1,0 +1,156 @@
+\section{main Class Reference}
+\label{classmain}\index{main@{main}}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void {\bf wait\+Until\+Finished} (Array\+List$<$ Thread $>$ my\+Threads)
+\begin{DoxyCompactList}\small\item\em Method wait\+Until\+Finished.\+Wait until they stop running the threads, and then deletes. \end{DoxyCompactList}\item 
+static void {\bf main} (String[$\,$] args)  throws Interrupted\+Exception,\+Array\+Index\+Out\+Of\+Bounds\+Exception 
+\begin{DoxyCompactList}\small\item\em Method Main of the project, where other programs are initialized. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 11 of file main.\+java.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{main@{main}!main@{main}}
+\index{main@{main}!main@{main}}
+\subsubsection[{main(\+String[] args)}]{\setlength{\rightskip}{0pt plus 5cm}static void main.\+main (
+\begin{DoxyParamCaption}
+\item[{String[$\,$]}]{args}
+\end{DoxyParamCaption}
+) throws Interrupted\+Exception,Array\+Index\+Out\+Of\+Bounds\+Exception\hspace{0.3cm}{\ttfamily [static]}}\label{classmain_a0877f3b412d48b8c92fa25c4b98c2f5a}
+
+
+Method Main of the project, where other programs are initialized. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em args} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Interrupted\+Exception,Array\+Index\+Out\+Of\+Bounds\+Exception} & \\
+\hline
+\end{DoxyExceptions}
+\begin{DoxyReturn}{Returns}
+void  public static 
+\end{DoxyReturn}
+Case 1.\+2 .A thread is created using the Thread class and Runnable interface
+
+Create the threads
+
+Start the threads
+
+Wait until there큦 no running threads
+
+Case 1.\+3 .A thread is created using the Thread class and Runnable interface, and when running displays a message on screen after one second
+
+Create the threads
+
+Start the threads
+
+Wait until there큦 no running threads
+
+Case 1.\+4 .A thread is created using the Runnable interface, and list the threads what are running on screen
+
+Create the thread
+
+Start the thread
+
+List the threads what are running on screen
+
+Wait until there큦 no running thread
+
+Case 2.\+1 .From the command line parameters receive few threads to create, the program will create and execute the indicated number of threads and show a messages on the screen.
+
+It creates the number of threads specified and start the threads
+
+Wait until there큦 no running threads
+
+Case 2.\+2 .From the command line parameters receive few threads to create, the program will create and execute the indicated number of threads and show a runtime each thread on the screen.
+
+It creates the number of threads specified and start the threads
+
+Wait until there큦 no running threads
+
+Case 2.\+4 .From the command line parameters receive few threads to create, the program will create and execute the indicated number of threads and displays the total time it takes to run all the threads on the screen.
+
+It creates the number of threads specified and start the threads
+
+Wait until there큦 no running threads
+
+Calculates and displays the total run time of the threads
+
+Case 2.\+5 .In this case displays the creation time and execution of the threads on the screen.
+
+It creates the number of threads specified and start the threads
+
+Calculates and displays the creation time and execution time of the threads
+
+Case 2.\+6 .The program creates and executes a growing number of threads, displaying messages on screen and performing mathematical operations and shows a graph in which the number of threads in relation compared with the runtime
+
+It creates the number of threads specified and start the threads
+
+Wait until there큦 no running threads
+
+Creates the main frame(\+Window)
+
+Case 3.\+2 .The program create and execute the threads and show the difference between the interrupted () and interrupted () methods
+
+Create and start the thread
+
+Use of method is\+Interrupted()
+
+Create and start the thread
+
+Use of method interrupted()
+
+Wait until there큦 no running threads
+
+Case 3.\+3 .The program create and execute the thread and and waits for a possible signal to be interrupted.
+
+Create and start the thread
+
+Case 3.\+3 .The program create and execute the thread and and waits for a possible signal to be interrupted by the user .
+
+Wait until there큦 no running threads
+
+Definition at line 40 of file main.\+java.
+
+
+
+\subsection{Member Function Documentation}
+\index{main@{main}!wait\+Until\+Finished@{wait\+Until\+Finished}}
+\index{wait\+Until\+Finished@{wait\+Until\+Finished}!main@{main}}
+\subsubsection[{wait\+Until\+Finished(\+Array\+List$<$ Thread $>$ my\+Threads)}]{\setlength{\rightskip}{0pt plus 5cm}static void main.\+wait\+Until\+Finished (
+\begin{DoxyParamCaption}
+\item[{Array\+List$<$ Thread $>$}]{my\+Threads}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classmain_a5945ee2d81ddf885a9026f9bdb342fdf}
+
+
+Method wait\+Until\+Finished.\+Wait until they stop running the threads, and then deletes. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Array} & of threads \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void  public static 
+\end{DoxyReturn}
+
+
+Definition at line 20 of file main.\+java.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/{\bf main.\+java}\end{DoxyCompactItemize}

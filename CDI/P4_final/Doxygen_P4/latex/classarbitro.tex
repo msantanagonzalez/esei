@@ -1,0 +1,221 @@
+\section{arbitro Class Reference}
+\label{classarbitro}\index{arbitro@{arbitro}}
+
+
+creates the main thread with the role of arbiter, is the thread that starts and ends the game is created.  public  
+
+
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void {\bf wait\+Until\+Finished} (Array\+List$<$ Thread $>$ my\+Threads)
+\begin{DoxyCompactList}\small\item\em Method wait\+Until\+Finished.\+Wait until they stop running the threads, and then deletes. \end{DoxyCompactList}\item 
+static void {\bf start\+Game} ({\bf Pelota} p)
+\begin{DoxyCompactList}\small\item\em Method start\+Game, serves to start the game. \end{DoxyCompactList}\item 
+static void {\bf stop\+Game} ({\bf Pelota} p)
+\begin{DoxyCompactList}\small\item\em Method stop\+Game, serves to stop the game. \end{DoxyCompactList}\item 
+static boolean {\bf game\+On} ()
+\begin{DoxyCompactList}\small\item\em Method \doxyref{game\+On()}{p.}{classarbitro_a8766f82969f93d67bca1ff438b360002}, used to know if the game is on. \end{DoxyCompactList}\item 
+static void {\bf turnos} ({\bf Ping} players[$\,$], int amount, int times)
+\begin{DoxyCompactList}\small\item\em Method turnos, serves to assign the turns of the players. \end{DoxyCompactList}\item 
+static void {\bf time} (Long stop, {\bf Ping} players[$\,$], int amount)
+\begin{DoxyCompactList}\small\item\em Method time, measures the runtime of the game. \end{DoxyCompactList}\item 
+static void {\bf option1} (int amount, int execution)  throws Interrupted\+Exception
+\begin{DoxyCompactList}\small\item\em Method option1, starting all threat after creating the players and waits. \end{DoxyCompactList}\item 
+static void {\bf option2} (int amount, int execution)
+\begin{DoxyCompactList}\small\item\em Method option2, playing for amount of time. \end{DoxyCompactList}\item 
+static void {\bf main} (String[$\,$] args)  throws Interrupted\+Exception 
+\begin{DoxyCompactList}\small\item\em Method Main of the project, where other programs are initialized. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+creates the main thread with the role of arbiter, is the thread that starts and ends the game is created.  public 
+
+\subsection{Member Function Documentation}
+\index{arbitro@{arbitro}!game\+On@{game\+On}}
+\index{game\+On@{game\+On}!arbitro@{arbitro}}
+\subsubsection[{game\+On()}]{\setlength{\rightskip}{0pt plus 5cm}static boolean arbitro.\+game\+On (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classarbitro_a8766f82969f93d67bca1ff438b360002}
+
+
+Method \doxyref{game\+On()}{p.}{classarbitro_a8766f82969f93d67bca1ff438b360002}, used to know if the game is on. 
+
+\begin{DoxyReturn}{Returns}
+void  public 
+\end{DoxyReturn}
+\index{arbitro@{arbitro}!main@{main}}
+\index{main@{main}!arbitro@{arbitro}}
+\subsubsection[{main(\+String[] args)}]{\setlength{\rightskip}{0pt plus 5cm}static void arbitro.\+main (
+\begin{DoxyParamCaption}
+\item[{String[$\,$]}]{args}
+\end{DoxyParamCaption}
+) throws Interrupted\+Exception\hspace{0.3cm}{\ttfamily [static]}}\label{classarbitro_a5815f5b2de4cf471ff518e499aafc9c6}
+
+
+Method Main of the project, where other programs are initialized. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em args} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Interrupted\+Exception} & public static \\
+\hline
+\end{DoxyExceptions}
+\index{arbitro@{arbitro}!option1@{option1}}
+\index{option1@{option1}!arbitro@{arbitro}}
+\subsubsection[{option1(int amount, int execution)}]{\setlength{\rightskip}{0pt plus 5cm}static void arbitro.\+option1 (
+\begin{DoxyParamCaption}
+\item[{int}]{amount, }
+\item[{int}]{execution}
+\end{DoxyParamCaption}
+) throws Interrupted\+Exception\hspace{0.3cm}{\ttfamily [static]}}\label{classarbitro_a834886a9e64c73269fcb27c5e91d2465}
+
+
+Method option1, starting all threat after creating the players and waits. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em integer} & amount, integer execution \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Interrupted\+Exception} & public static \\
+\hline
+\end{DoxyExceptions}
+\index{arbitro@{arbitro}!option2@{option2}}
+\index{option2@{option2}!arbitro@{arbitro}}
+\subsubsection[{option2(int amount, int execution)}]{\setlength{\rightskip}{0pt plus 5cm}static void arbitro.\+option2 (
+\begin{DoxyParamCaption}
+\item[{int}]{amount, }
+\item[{int}]{execution}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classarbitro_a68c57a3457bca90c744b32983d1262af}
+
+
+Method option2, playing for amount of time. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em integer} & amount, integer execution \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void  public static 
+\end{DoxyReturn}
+\index{arbitro@{arbitro}!start\+Game@{start\+Game}}
+\index{start\+Game@{start\+Game}!arbitro@{arbitro}}
+\subsubsection[{start\+Game(\+Pelota p)}]{\setlength{\rightskip}{0pt plus 5cm}static void arbitro.\+start\+Game (
+\begin{DoxyParamCaption}
+\item[{{\bf Pelota}}]{p}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classarbitro_a1100d8415902340de1297abcf6a5560e}
+
+
+Method start\+Game, serves to start the game. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \doxyref{Pelota}{p.}{class_pelota}} & p \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void  public 
+\end{DoxyReturn}
+\index{arbitro@{arbitro}!stop\+Game@{stop\+Game}}
+\index{stop\+Game@{stop\+Game}!arbitro@{arbitro}}
+\subsubsection[{stop\+Game(\+Pelota p)}]{\setlength{\rightskip}{0pt plus 5cm}static void arbitro.\+stop\+Game (
+\begin{DoxyParamCaption}
+\item[{{\bf Pelota}}]{p}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classarbitro_aeaa7832cb51e604df61fff360758d0ad}
+
+
+Method stop\+Game, serves to stop the game. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \doxyref{Pelota}{p.}{class_pelota}} & p \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void  public 
+\end{DoxyReturn}
+\index{arbitro@{arbitro}!time@{time}}
+\index{time@{time}!arbitro@{arbitro}}
+\subsubsection[{time(\+Long stop, Ping players[], int amount)}]{\setlength{\rightskip}{0pt plus 5cm}static void arbitro.\+time (
+\begin{DoxyParamCaption}
+\item[{Long}]{stop, }
+\item[{{\bf Ping}}]{players[$\,$], }
+\item[{int}]{amount}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classarbitro_a848800fc167b2061e10bd611a38da0de}
+
+
+Method time, measures the runtime of the game. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Long} & stop,\doxyref{Ping}{p.}{class_ping} players[],integer amount \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void  public static 
+\end{DoxyReturn}
+\index{arbitro@{arbitro}!turnos@{turnos}}
+\index{turnos@{turnos}!arbitro@{arbitro}}
+\subsubsection[{turnos(\+Ping players[], int amount, int times)}]{\setlength{\rightskip}{0pt plus 5cm}static void arbitro.\+turnos (
+\begin{DoxyParamCaption}
+\item[{{\bf Ping}}]{players[$\,$], }
+\item[{int}]{amount, }
+\item[{int}]{times}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classarbitro_af2debb6af02609725fa7541b20b8c311}
+
+
+Method turnos, serves to assign the turns of the players. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \doxyref{Ping}{p.}{class_ping}} & players[], integer amount, integer times \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void  public static 
+\end{DoxyReturn}
+\index{arbitro@{arbitro}!wait\+Until\+Finished@{wait\+Until\+Finished}}
+\index{wait\+Until\+Finished@{wait\+Until\+Finished}!arbitro@{arbitro}}
+\subsubsection[{wait\+Until\+Finished(\+Array\+List$<$ Thread $>$ my\+Threads)}]{\setlength{\rightskip}{0pt plus 5cm}static void arbitro.\+wait\+Until\+Finished (
+\begin{DoxyParamCaption}
+\item[{Array\+List$<$ Thread $>$}]{my\+Threads}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{classarbitro_a8ad0c101b8ea8b6b422bfa17b4e975ca}
+
+
+Method wait\+Until\+Finished.\+Wait until they stop running the threads, and then deletes. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Array\+List$<$\+Thread$>$} & my\+Threads \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void  private 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Alfredo/workspace/\+P4/src/{\bf arbitro.\+java}\end{DoxyCompactItemize}

@@ -1,0 +1,382 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="class_with_runnable2__6" kind="class" language="Java" prot="public">
+    <compoundname>WithRunnable2_6</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Runnable</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_with_runnable2__6_1a3124830cc6f91737d9644c6144a6f5d8" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int WithRunnable2_6.amount</definition>
+        <argsstring></argsstring>
+        <name>amount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/WithRunnable2_6.java" line="11" column="1" bodyfile="src/WithRunnable2_6.java" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_with_runnable2__6_1a26832e5f208aefc7d432f5e27bc1a32b" prot="private" static="no" mutable="no">
+        <type>ArrayList&lt; ArrayList&lt; Long &gt; &gt;</type>
+        <definition>ArrayList&lt;ArrayList&lt;Long&gt; &gt; WithRunnable2_6.times</definition>
+        <argsstring></argsstring>
+        <name>times</name>
+        <initializer>= new ArrayList&lt;ArrayList&lt;Long&gt;&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>To save Threads time </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/WithRunnable2_6.java" line="13" column="1" bodyfile="src/WithRunnable2_6.java" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_with_runnable2__6_1a99e9e2fb80fa35fdddfc0e2446d60568" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int WithRunnable2_6.option</definition>
+        <argsstring></argsstring>
+        <name>option</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/WithRunnable2_6.java" line="14" column="1" bodyfile="src/WithRunnable2_6.java" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_with_runnable2__6_1ac04e103623fecf55c991dd19d8b68880" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long WithRunnable2_6.initTime</definition>
+        <argsstring></argsstring>
+        <name>initTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Time when the first threat start to run </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/WithRunnable2_6.java" line="16" column="1" bodyfile="src/WithRunnable2_6.java" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_with_runnable2__6_1aa29011b7efafd87fe5daa5900f450885" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long WithRunnable2_6.finishTime</definition>
+        <argsstring></argsstring>
+        <name>finishTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Time when the last threat finish the execution </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/WithRunnable2_6.java" line="18" column="1" bodyfile="src/WithRunnable2_6.java" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_with_runnable2__6_1ac4d81cb75acac42ea64a2b997a3459fb" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean WithRunnable2_6.flagInit</definition>
+        <argsstring></argsstring>
+        <name>flagInit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Flag to activate the setInitTime method </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/WithRunnable2_6.java" line="20" column="1" bodyfile="src/WithRunnable2_6.java" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_with_runnable2__6_1a34cfe8e605aa1767a172960c323c10a1" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean WithRunnable2_6.flagFinish</definition>
+        <argsstring></argsstring>
+        <name>flagFinish</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Flag to activate the setFinishTime method </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/WithRunnable2_6.java" line="22" column="1" bodyfile="src/WithRunnable2_6.java" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_with_runnable2__6_1a76e84f507a61504311069733a9de3ce8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WithRunnable2_6.WithRunnable2_6</definition>
+        <argsstring>(int o)</argsstring>
+        <name>WithRunnable2_6</name>
+        <param>
+          <type>int</type>
+          <declname>o</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="class_with_runnable2__6" kindref="compound">WithRunnable2_6</ref> Constructor  public. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/WithRunnable2_6.java" line="29" column="1" bodyfile="src/WithRunnable2_6.java" bodystart="29" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_with_runnable2__6_1a99fe1b4a2100f69b0edf8f35a1a7a0c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WithRunnable2_6.setInitTime</definition>
+        <argsstring>(long t)</argsstring>
+        <name>setInitTime</name>
+        <param>
+          <type>long</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>void setInitTime. Saves when the first thread starts the execution </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>t</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void  public </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/WithRunnable2_6.java" line="43" column="1" bodyfile="src/WithRunnable2_6.java" bodystart="43" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_with_runnable2__6_1a63c11065e4ae28dd68a3e3e77f80e8b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WithRunnable2_6.setFinishTime</definition>
+        <argsstring>(long t)</argsstring>
+        <name>setFinishTime</name>
+        <param>
+          <type>long</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>void setFinishTime. Saves when the last thread finish the execution </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>t</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void  public </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/WithRunnable2_6.java" line="54" column="1" bodyfile="src/WithRunnable2_6.java" bodystart="54" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="class_with_runnable2__6_1a0abc4f3fc1a30e0dd5e4a96dc136d59e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>long</type>
+        <definition>long WithRunnable2_6.getInitTime</definition>
+        <argsstring>()</argsstring>
+        <name>getInitTime</name>
+        <briefdescription>
+<para>Method getInitTime. Get when the last thread starts the execution. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>long  public </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/WithRunnable2_6.java" line="64" column="1" bodyfile="src/WithRunnable2_6.java" bodystart="64" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_with_runnable2__6_1a5e3ff08cd972f6f814c227e1dbfbd97f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>long</type>
+        <definition>long WithRunnable2_6.getFinishTime</definition>
+        <argsstring>()</argsstring>
+        <name>getFinishTime</name>
+        <briefdescription>
+<para>Method getFinishTime. Get when the last thread finish the execution. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>long  public </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/WithRunnable2_6.java" line="74" column="1" bodyfile="src/WithRunnable2_6.java" bodystart="74" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="class_with_runnable2__6_1a681715a14a01d8c22c606ba604fd3618" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ArrayList&lt; ArrayList&lt; Long &gt; &gt;</type>
+        <definition>ArrayList&lt;ArrayList&lt;Long&gt; &gt; WithRunnable2_6.getTimes</definition>
+        <argsstring>()</argsstring>
+        <name>getTimes</name>
+        <briefdescription>
+<para>Method getTimes. Get ArrayList of times. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>ArrayList&lt;ArrayList&lt;Long&gt;&gt;  public </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/WithRunnable2_6.java" line="84" column="1" bodyfile="src/WithRunnable2_6.java" bodystart="84" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="class_with_runnable2__6_1aa3147b9ea15f716263ec7f5faab8cf5a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>long</type>
+        <definition>long WithRunnable2_6.getMaxTime</definition>
+        <argsstring>()</argsstring>
+        <name>getMaxTime</name>
+        <briefdescription>
+<para>void addElement. Returns the running time of the Threads </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>long  public </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/WithRunnable2_6.java" line="105" column="1" bodyfile="src/WithRunnable2_6.java" bodystart="105" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="class_with_runnable2__6_1a3a28bdb4607dccf31c1cdbcf1e754d9a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>synchronized void</type>
+        <definition>synchronized void WithRunnable2_6.run</definition>
+        <argsstring>()</argsstring>
+        <name>run</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Synchronized run function. Running to synchronized start the threads, displays a messages on screen and save the times <simplesect kind="return"><para>void  public </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/WithRunnable2_6.java" line="161" column="1" bodyfile="src/WithRunnable2_6.java" bodystart="161" bodyend="180"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_with_runnable2__6_1a940c88cbc377f06b8bd321d054ffc5dd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WithRunnable2_6.addElement</definition>
+        <argsstring>(ArrayList&lt; Long &gt; e)</argsstring>
+        <name>addElement</name>
+        <param>
+          <type>ArrayList&lt; Long &gt;</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>void addElement. Adds a ArrayList object into the main ArrayList </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void  private </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/WithRunnable2_6.java" line="95" column="1" bodyfile="src/WithRunnable2_6.java" bodystart="95" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="class_with_runnable2__6_1a56323274599cc00317588b6fb4be1d74" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ArrayList&lt; Long &gt;</type>
+        <definition>ArrayList&lt;Long&gt; WithRunnable2_6.setValues</definition>
+        <argsstring>(long s, long f, long t)</argsstring>
+        <name>setValues</name>
+        <param>
+          <type>long</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>Method setValues. Adds the thread time information into a ArrayList object. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>s</parametername>
+<parametername>f</parametername>
+<parametername>t</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>ArrayList&lt;Long&gt;  private </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/WithRunnable2_6.java" line="122" column="1" bodyfile="src/WithRunnable2_6.java" bodystart="122" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="class_with_runnable2__6_1a5350db37470fbb74834965899ba8a65d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WithRunnable2_6.withText</definition>
+        <argsstring>()</argsstring>
+        <name>withText</name>
+        <briefdescription>
+<para>Method void withText. Show messages on the screen. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>void  private </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/WithRunnable2_6.java" line="136" column="1" bodyfile="src/WithRunnable2_6.java" bodystart="136" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="function" id="class_with_runnable2__6_1a2b8f17f52923ac376152b33e82338392" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WithRunnable2_6.withMath</definition>
+        <argsstring>()</argsstring>
+        <name>withMath</name>
+        <briefdescription>
+<para>Method void withText. Performs mathematical operations. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>void  private </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/WithRunnable2_6.java" line="147" column="1" bodyfile="src/WithRunnable2_6.java" bodystart="147" bodyend="154"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The program creates and executes a growing number of threads, displaying messages on screen and performing mathematical operations and shows a graph in which the number of threads in relation compared with the runtime  public. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="32">
+        <label>WithRunnable2_6</label>
+        <link refid="class_with_runnable2__6"/>
+        <childnode refid="33" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>Runnable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="34">
+        <label>WithRunnable2_6</label>
+        <link refid="class_with_runnable2__6"/>
+        <childnode refid="35" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>Runnable</label>
+      </node>
+    </collaborationgraph>
+    <location file="src/WithRunnable2_6.java" line="10" column="1" bodyfile="src/WithRunnable2_6.java" bodystart="10" bodyend="181"/>
+    <listofallmembers>
+      <member refid="class_with_runnable2__6_1a940c88cbc377f06b8bd321d054ffc5dd" prot="private" virt="non-virtual"><scope>WithRunnable2_6</scope><name>addElement</name></member>
+      <member refid="class_with_runnable2__6_1a3124830cc6f91737d9644c6144a6f5d8" prot="private" virt="non-virtual"><scope>WithRunnable2_6</scope><name>amount</name></member>
+      <member refid="class_with_runnable2__6_1aa29011b7efafd87fe5daa5900f450885" prot="private" virt="non-virtual"><scope>WithRunnable2_6</scope><name>finishTime</name></member>
+      <member refid="class_with_runnable2__6_1a34cfe8e605aa1767a172960c323c10a1" prot="private" virt="non-virtual"><scope>WithRunnable2_6</scope><name>flagFinish</name></member>
+      <member refid="class_with_runnable2__6_1ac4d81cb75acac42ea64a2b997a3459fb" prot="private" virt="non-virtual"><scope>WithRunnable2_6</scope><name>flagInit</name></member>
+      <member refid="class_with_runnable2__6_1a5e3ff08cd972f6f814c227e1dbfbd97f" prot="public" virt="non-virtual"><scope>WithRunnable2_6</scope><name>getFinishTime</name></member>
+      <member refid="class_with_runnable2__6_1a0abc4f3fc1a30e0dd5e4a96dc136d59e" prot="public" virt="non-virtual"><scope>WithRunnable2_6</scope><name>getInitTime</name></member>
+      <member refid="class_with_runnable2__6_1aa3147b9ea15f716263ec7f5faab8cf5a" prot="public" virt="non-virtual"><scope>WithRunnable2_6</scope><name>getMaxTime</name></member>
+      <member refid="class_with_runnable2__6_1a681715a14a01d8c22c606ba604fd3618" prot="public" virt="non-virtual"><scope>WithRunnable2_6</scope><name>getTimes</name></member>
+      <member refid="class_with_runnable2__6_1ac04e103623fecf55c991dd19d8b68880" prot="private" virt="non-virtual"><scope>WithRunnable2_6</scope><name>initTime</name></member>
+      <member refid="class_with_runnable2__6_1a99e9e2fb80fa35fdddfc0e2446d60568" prot="private" virt="non-virtual"><scope>WithRunnable2_6</scope><name>option</name></member>
+      <member refid="class_with_runnable2__6_1a3a28bdb4607dccf31c1cdbcf1e754d9a" prot="public" virt="non-virtual"><scope>WithRunnable2_6</scope><name>run</name></member>
+      <member refid="class_with_runnable2__6_1a63c11065e4ae28dd68a3e3e77f80e8b9" prot="public" virt="non-virtual"><scope>WithRunnable2_6</scope><name>setFinishTime</name></member>
+      <member refid="class_with_runnable2__6_1a99fe1b4a2100f69b0edf8f35a1a7a0c2" prot="public" virt="non-virtual"><scope>WithRunnable2_6</scope><name>setInitTime</name></member>
+      <member refid="class_with_runnable2__6_1a56323274599cc00317588b6fb4be1d74" prot="private" virt="non-virtual"><scope>WithRunnable2_6</scope><name>setValues</name></member>
+      <member refid="class_with_runnable2__6_1a26832e5f208aefc7d432f5e27bc1a32b" prot="private" virt="non-virtual"><scope>WithRunnable2_6</scope><name>times</name></member>
+      <member refid="class_with_runnable2__6_1a2b8f17f52923ac376152b33e82338392" prot="private" virt="non-virtual"><scope>WithRunnable2_6</scope><name>withMath</name></member>
+      <member refid="class_with_runnable2__6_1a76e84f507a61504311069733a9de3ce8" prot="public" virt="non-virtual"><scope>WithRunnable2_6</scope><name>WithRunnable2_6</name></member>
+      <member refid="class_with_runnable2__6_1a5350db37470fbb74834965899ba8a65d" prot="private" virt="non-virtual"><scope>WithRunnable2_6</scope><name>withText</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

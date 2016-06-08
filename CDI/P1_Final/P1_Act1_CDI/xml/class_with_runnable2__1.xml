@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="class_with_runnable2__1" kind="class" language="Java" prot="public">
+    <compoundname>WithRunnable2_1</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Runnable</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_with_runnable2__1_1a7a473d1ddd324251e7a1ebbd298fb9e4" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int WithRunnable2_1.amount</definition>
+        <argsstring></argsstring>
+        <name>amount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/WithRunnable2_1.java" line="8" column="1" bodyfile="src/WithRunnable2_1.java" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_with_runnable2__1_1a1cd16dd9e679245b2741ee453d200926" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WithRunnable2_1.WithRunnable2_1</definition>
+        <argsstring>()</argsstring>
+        <name>WithRunnable2_1</name>
+        <briefdescription>
+<para><ref refid="class_with_runnable2__1" kindref="compound">WithRunnable2_1</ref> Constructor  public. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/WithRunnable2_1.java" line="15" column="1" bodyfile="src/WithRunnable2_1.java" bodystart="15" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_with_runnable2__1_1a7479a6566832e958e8d4015eb7cc60fd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>synchronized void</type>
+        <definition>synchronized void WithRunnable2_1.run</definition>
+        <argsstring>()</argsstring>
+        <name>run</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Synchronized run function. Running to synchronized start the thread, and displays a message on screen, after one second displays other message <simplesect kind="return"><para>void  public </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/WithRunnable2_1.java" line="25" column="1" bodyfile="src/WithRunnable2_1.java" bodystart="25" bodyend="34"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>From the command line parameters receive few threads to create, the program will create and execute the indicated number of threads and show a message on the screen.  public. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="21">
+        <label>Runnable</label>
+      </node>
+      <node id="20">
+        <label>WithRunnable2_1</label>
+        <link refid="class_with_runnable2__1"/>
+        <childnode refid="21" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="23">
+        <label>Runnable</label>
+      </node>
+      <node id="22">
+        <label>WithRunnable2_1</label>
+        <link refid="class_with_runnable2__1"/>
+        <childnode refid="23" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/WithRunnable2_1.java" line="7" column="1" bodyfile="src/WithRunnable2_1.java" bodystart="7" bodyend="35"/>
+    <listofallmembers>
+      <member refid="class_with_runnable2__1_1a7a473d1ddd324251e7a1ebbd298fb9e4" prot="private" virt="non-virtual"><scope>WithRunnable2_1</scope><name>amount</name></member>
+      <member refid="class_with_runnable2__1_1a7479a6566832e958e8d4015eb7cc60fd" prot="public" virt="non-virtual"><scope>WithRunnable2_1</scope><name>run</name></member>
+      <member refid="class_with_runnable2__1_1a1cd16dd9e679245b2741ee453d200926" prot="public" virt="non-virtual"><scope>WithRunnable2_1</scope><name>WithRunnable2_1</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

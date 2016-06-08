@@ -1,0 +1,164 @@
+.TH "WithRunnable2_6" 3 "Tue Feb 23 2016" "Practica1_Actividad_1" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+WithRunnable2_6 \- The program creates and executes a growing number of threads, displaying messages on screen and performing mathematical operations and shows a graph in which the number of threads in relation compared with the runtime  public\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits Runnable\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBWithRunnable2_6\fP (int o)"
+.br
+.RI "\fI\fBWithRunnable2_6\fP Constructor  public\&. \fP"
+.ti -1c
+.RI "void \fBsetInitTime\fP (long t)"
+.br
+.RI "\fIvoid setInitTime\&. Saves when the first thread starts the execution \fP"
+.ti -1c
+.RI "void \fBsetFinishTime\fP (long t)"
+.br
+.RI "\fIvoid setFinishTime\&. Saves when the last thread finish the execution \fP"
+.ti -1c
+.RI "long \fBgetInitTime\fP ()"
+.br
+.RI "\fIMethod getInitTime\&. Get when the last thread starts the execution\&. \fP"
+.ti -1c
+.RI "long \fBgetFinishTime\fP ()"
+.br
+.RI "\fIMethod getFinishTime\&. Get when the last thread finish the execution\&. \fP"
+.ti -1c
+.RI "ArrayList< ArrayList< Long > > \fBgetTimes\fP ()"
+.br
+.RI "\fIMethod getTimes\&. Get ArrayList of times\&. \fP"
+.ti -1c
+.RI "long \fBgetMaxTime\fP ()"
+.br
+.RI "\fIvoid addElement\&. Returns the running time of the Threads \fP"
+.ti -1c
+.RI "synchronized void \fBrun\fP ()"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+The program creates and executes a growing number of threads, displaying messages on screen and performing mathematical operations and shows a graph in which the number of threads in relation compared with the runtime  public\&. 
+.PP
+Definition at line 10 of file WithRunnable2_6\&.java\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "WithRunnable2_6\&.WithRunnable2_6 (int o)"
+
+.PP
+\fBWithRunnable2_6\fP Constructor  public\&. 
+.PP
+Definition at line 29 of file WithRunnable2_6\&.java\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "long WithRunnable2_6\&.getFinishTime ()"
+
+.PP
+Method getFinishTime\&. Get when the last thread finish the execution\&. 
+.PP
+\fBReturns:\fP
+.RS 4
+long  public 
+.RE
+.PP
+
+.PP
+Definition at line 74 of file WithRunnable2_6\&.java\&.
+.SS "long WithRunnable2_6\&.getInitTime ()"
+
+.PP
+Method getInitTime\&. Get when the last thread starts the execution\&. 
+.PP
+\fBReturns:\fP
+.RS 4
+long  public 
+.RE
+.PP
+
+.PP
+Definition at line 64 of file WithRunnable2_6\&.java\&.
+.SS "long WithRunnable2_6\&.getMaxTime ()"
+
+.PP
+void addElement\&. Returns the running time of the Threads 
+.PP
+\fBReturns:\fP
+.RS 4
+long  public 
+.RE
+.PP
+
+.PP
+Definition at line 105 of file WithRunnable2_6\&.java\&.
+.SS "ArrayList<ArrayList<Long> > WithRunnable2_6\&.getTimes ()"
+
+.PP
+Method getTimes\&. Get ArrayList of times\&. 
+.PP
+\fBReturns:\fP
+.RS 4
+ArrayList<ArrayList<Long>>  public 
+.RE
+.PP
+
+.PP
+Definition at line 84 of file WithRunnable2_6\&.java\&.
+.SS "synchronized void WithRunnable2_6\&.run ()"
+Synchronized run function\&. Running to synchronized start the threads, displays a messages on screen and save the times 
+.PP
+\fBReturns:\fP
+.RS 4
+void  public 
+.RE
+.PP
+
+.PP
+Definition at line 161 of file WithRunnable2_6\&.java\&.
+.SS "void WithRunnable2_6\&.setFinishTime (long t)"
+
+.PP
+void setFinishTime\&. Saves when the last thread finish the execution 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIt\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+void  public 
+.RE
+.PP
+
+.PP
+Definition at line 54 of file WithRunnable2_6\&.java\&.
+.SS "void WithRunnable2_6\&.setInitTime (long t)"
+
+.PP
+void setInitTime\&. Saves when the first thread starts the execution 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIt\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+void  public 
+.RE
+.PP
+
+.PP
+Definition at line 43 of file WithRunnable2_6\&.java\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Practica1_Actividad_1 from the source code\&.

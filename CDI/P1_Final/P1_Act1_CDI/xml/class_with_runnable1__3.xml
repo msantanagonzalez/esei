@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="class_with_runnable1__3" kind="class" language="Java" prot="public">
+    <compoundname>WithRunnable1_3</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Runnable</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_with_runnable1__3_1ad8d2bbcfbf2bc20801536854a14abb9b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WithRunnable1_3.run</definition>
+        <argsstring>()</argsstring>
+        <name>run</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Run function. Running to start the thread, and displays a message on screen after one second <simplesect kind="return"><para>void  public </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/WithRunnable1_3.java" line="15" column="1" bodyfile="src/WithRunnable1_3.java" bodystart="15" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A thread is created using the Runnable interface  public. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="16">
+        <label>WithRunnable1_3</label>
+        <link refid="class_with_runnable1__3"/>
+        <childnode refid="17" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>Runnable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="18">
+        <label>WithRunnable1_3</label>
+        <link refid="class_with_runnable1__3"/>
+        <childnode refid="19" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>Runnable</label>
+      </node>
+    </collaborationgraph>
+    <location file="src/WithRunnable1_3.java" line="7" column="1" bodyfile="src/WithRunnable1_3.java" bodystart="7" bodyend="23"/>
+    <listofallmembers>
+      <member refid="class_with_runnable1__3_1ad8d2bbcfbf2bc20801536854a14abb9b" prot="public" virt="non-virtual"><scope>WithRunnable1_3</scope><name>run</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

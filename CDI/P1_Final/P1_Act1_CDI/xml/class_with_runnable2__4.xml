@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="class_with_runnable2__4" kind="class" language="Java" prot="public">
+    <compoundname>WithRunnable2_4</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Runnable</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_with_runnable2__4_1a1e3a7034fcac21f6c34ba5aa0600181b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int WithRunnable2_4.amount</definition>
+        <argsstring></argsstring>
+        <name>amount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/WithRunnable2_4.java" line="11" column="1" bodyfile="src/WithRunnable2_4.java" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_with_runnable2__4_1a1ffdf6688ead0dd26532199114e226cb" prot="private" static="no" mutable="no">
+        <type>ArrayList&lt; Long &gt;</type>
+        <definition>ArrayList&lt;Long&gt; WithRunnable2_4.times</definition>
+        <argsstring></argsstring>
+        <name>times</name>
+        <initializer>= new ArrayList&lt;Long&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/WithRunnable2_4.java" line="12" column="1" bodyfile="src/WithRunnable2_4.java" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_with_runnable2__4_1a440a3bce735796f5af5d7630e8850323" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WithRunnable2_4.WithRunnable2_4</definition>
+        <argsstring>()</argsstring>
+        <name>WithRunnable2_4</name>
+        <briefdescription>
+<para><ref refid="class_with_runnable2__4" kindref="compound">WithRunnable2_4</ref> Constructor  public. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/WithRunnable2_4.java" line="19" column="1" bodyfile="src/WithRunnable2_4.java" bodystart="19" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_with_runnable2__4_1a80897e31f5471b104585fb01d3d89ac4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WithRunnable2_4.setTime</definition>
+        <argsstring>(long time)</argsstring>
+        <name>setTime</name>
+        <param>
+          <type>long</type>
+          <declname>time</declname>
+        </param>
+        <briefdescription>
+<para>Void setTime. Add one time in the ArrayList. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>time</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void  public </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/WithRunnable2_4.java" line="30" column="1" bodyfile="src/WithRunnable2_4.java" bodystart="30" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_with_runnable2__4_1ab067373007e990dd4b3f3af3a7b3628e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Iterator&lt; Long &gt;</type>
+        <definition>Iterator&lt;Long&gt; WithRunnable2_4.getTimes</definition>
+        <argsstring>()</argsstring>
+        <name>getTimes</name>
+        <briefdescription>
+<para>Method getTimes. Add one time in the ArrayList. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Iterator&lt;Long&gt;  public </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/WithRunnable2_4.java" line="40" column="1" bodyfile="src/WithRunnable2_4.java" bodystart="40" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_with_runnable2__4_1a5c16d8b5bc065f242fca06dbf9d8790b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>synchronized void</type>
+        <definition>synchronized void WithRunnable2_4.run</definition>
+        <argsstring>()</argsstring>
+        <name>run</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Synchronized run function. Running to synchronized start the threads, displays a messages on screen and save the times <simplesect kind="return"><para>void  public </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/WithRunnable2_4.java" line="50" column="1" bodyfile="src/WithRunnable2_4.java" bodystart="50" bodyend="57"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>From the command line parameters receive few threads to create, the program will create and execute the indicated number of threads and displays the total time it takes to run all the threads on the screen.  public. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="28">
+        <label>WithRunnable2_4</label>
+        <link refid="class_with_runnable2__4"/>
+        <childnode refid="29" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>Runnable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="30">
+        <label>WithRunnable2_4</label>
+        <link refid="class_with_runnable2__4"/>
+        <childnode refid="31" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>Runnable</label>
+      </node>
+    </collaborationgraph>
+    <location file="src/WithRunnable2_4.java" line="10" column="1" bodyfile="src/WithRunnable2_4.java" bodystart="10" bodyend="58"/>
+    <listofallmembers>
+      <member refid="class_with_runnable2__4_1a1e3a7034fcac21f6c34ba5aa0600181b" prot="private" virt="non-virtual"><scope>WithRunnable2_4</scope><name>amount</name></member>
+      <member refid="class_with_runnable2__4_1ab067373007e990dd4b3f3af3a7b3628e" prot="public" virt="non-virtual"><scope>WithRunnable2_4</scope><name>getTimes</name></member>
+      <member refid="class_with_runnable2__4_1a5c16d8b5bc065f242fca06dbf9d8790b" prot="public" virt="non-virtual"><scope>WithRunnable2_4</scope><name>run</name></member>
+      <member refid="class_with_runnable2__4_1a80897e31f5471b104585fb01d3d89ac4" prot="public" virt="non-virtual"><scope>WithRunnable2_4</scope><name>setTime</name></member>
+      <member refid="class_with_runnable2__4_1a1ffdf6688ead0dd26532199114e226cb" prot="private" virt="non-virtual"><scope>WithRunnable2_4</scope><name>times</name></member>
+      <member refid="class_with_runnable2__4_1a440a3bce735796f5af5d7630e8850323" prot="public" virt="non-virtual"><scope>WithRunnable2_4</scope><name>WithRunnable2_4</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,207 @@
+.TH "arbitro" 3 "Thu Apr 14 2016" "Práctica 4" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+arbitro \- creates the main thread with the role of arbiter, is the thread that starts and ends the game is created\&.  public  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static void \fBwaitUntilFinished\fP (ArrayList< Thread > myThreads)"
+.br
+.RI "\fIMethod waitUntilFinished\&.Wait until they stop running the threads, and then deletes\&. \fP"
+.ti -1c
+.RI "static void \fBstartGame\fP (\fBPelota\fP p)"
+.br
+.RI "\fIMethod startGame, serves to start the game\&. \fP"
+.ti -1c
+.RI "static void \fBstopGame\fP (\fBPelota\fP p)"
+.br
+.RI "\fIMethod stopGame, serves to stop the game\&. \fP"
+.ti -1c
+.RI "static boolean \fBgameOn\fP ()"
+.br
+.RI "\fIMethod \fBgameOn()\fP, used to know if the game is on\&. \fP"
+.ti -1c
+.RI "static void \fBturnos\fP (\fBPing\fP players[], int amount, int times)"
+.br
+.RI "\fIMethod turnos, serves to assign the turns of the players\&. \fP"
+.ti -1c
+.RI "static void \fBtime\fP (Long stop, \fBPing\fP players[], int amount)"
+.br
+.RI "\fIMethod time, measures the runtime of the game\&. \fP"
+.ti -1c
+.RI "static void \fBoption1\fP (int amount, int execution)  throws InterruptedException"
+.br
+.RI "\fIMethod option1, starting all threat after creating the players and waits\&. \fP"
+.ti -1c
+.RI "static void \fBoption2\fP (int amount, int execution)"
+.br
+.RI "\fIMethod option2, playing for amount of time\&. \fP"
+.ti -1c
+.RI "static void \fBmain\fP (String[] args)  throws InterruptedException "
+.br
+.RI "\fIMethod Main of the project, where other programs are initialized\&. \fP"
+.in -1c
+.SH "Detailed Description"
+.PP 
+creates the main thread with the role of arbiter, is the thread that starts and ends the game is created\&.  public 
+.SH "Member Function Documentation"
+.PP 
+.SS "static boolean arbitro\&.gameOn ()\fC [static]\fP"
+
+.PP
+Method \fBgameOn()\fP, used to know if the game is on\&. 
+.PP
+\fBReturns:\fP
+.RS 4
+void  public 
+.RE
+.PP
+
+.SS "static void arbitro\&.main (String[] args) throws InterruptedException\fC [static]\fP"
+
+.PP
+Method Main of the project, where other programs are initialized\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIargs\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+void 
+.RE
+.PP
+\fBExceptions:\fP
+.RS 4
+\fIInterruptedException\fP public static 
+.RE
+.PP
+
+.SS "static void arbitro\&.option1 (int amount, int execution) throws InterruptedException\fC [static]\fP"
+
+.PP
+Method option1, starting all threat after creating the players and waits\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIinteger\fP amount, integer execution 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+void 
+.RE
+.PP
+\fBExceptions:\fP
+.RS 4
+\fIInterruptedException\fP public static 
+.RE
+.PP
+
+.SS "static void arbitro\&.option2 (int amount, int execution)\fC [static]\fP"
+
+.PP
+Method option2, playing for amount of time\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIinteger\fP amount, integer execution 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+void  public static 
+.RE
+.PP
+
+.SS "static void arbitro\&.startGame (\fBPelota\fP p)\fC [static]\fP"
+
+.PP
+Method startGame, serves to start the game\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fI\fBPelota\fP\fP p 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+void  public 
+.RE
+.PP
+
+.SS "static void arbitro\&.stopGame (\fBPelota\fP p)\fC [static]\fP"
+
+.PP
+Method stopGame, serves to stop the game\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fI\fBPelota\fP\fP p 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+void  public 
+.RE
+.PP
+
+.SS "static void arbitro\&.time (Long stop, \fBPing\fP players[], int amount)\fC [static]\fP"
+
+.PP
+Method time, measures the runtime of the game\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fILong\fP stop,\fBPing\fP players[],integer amount 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+void  public static 
+.RE
+.PP
+
+.SS "static void arbitro\&.turnos (\fBPing\fP players[], int amount, int times)\fC [static]\fP"
+
+.PP
+Method turnos, serves to assign the turns of the players\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fI\fBPing\fP\fP players[], integer amount, integer times 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+void  public static 
+.RE
+.PP
+
+.SS "static void arbitro\&.waitUntilFinished (ArrayList< Thread > myThreads)\fC [static]\fP"
+
+.PP
+Method waitUntilFinished\&.Wait until they stop running the threads, and then deletes\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIArrayList<Thread>\fP myThreads 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+void  private 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Práctica 4 from the source code\&.

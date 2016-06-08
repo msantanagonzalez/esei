@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="class_with_runnable3__3" kind="class" language="Java" prot="public">
+    <compoundname>WithRunnable3_3</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Runnable</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_with_runnable3__3_1ab788244cc7736e2485ec32cb48ea1572" prot="private" static="no" mutable="no">
+        <type>boolean</type>
+        <definition>boolean WithRunnable3_3.signal</definition>
+        <argsstring></argsstring>
+        <name>signal</name>
+        <initializer>=false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/WithRunnable3_3.java" line="8" column="1" bodyfile="src/WithRunnable3_3.java" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_with_runnable3__3_1a20abc6ac9974a79ed3aac2578ed7754e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WithRunnable3_3.sendSignal</definition>
+        <argsstring>()</argsstring>
+        <name>sendSignal</name>
+        <briefdescription>
+<para>Method sendSignal. Send a signal for interrupt execution of thread (signal=true) </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>void  public </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/WithRunnable3_3.java" line="16" column="1" bodyfile="src/WithRunnable3_3.java" bodystart="16" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_with_runnable3__3_1a2892d69fe3a786d4c69642f971d8706d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean WithRunnable3_3.getSignal</definition>
+        <argsstring>()</argsstring>
+        <name>getSignal</name>
+        <briefdescription>
+<para>Method getSignal. Observe the state of signal. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>boolean  public </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/WithRunnable3_3.java" line="26" column="1" bodyfile="src/WithRunnable3_3.java" bodystart="26" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_with_runnable3__3_1ab7351a85b08bbe7e3e8be6e112a4f124" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WithRunnable3_3.run</definition>
+        <argsstring>()</argsstring>
+        <name>run</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Run function. Running to start the thread, and waits for a possible signal to be interrupted by the user. <simplesect kind="return"><para>void  public </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/WithRunnable3_3.java" line="36" column="1" bodyfile="src/WithRunnable3_3.java" bodystart="36" bodyend="56"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The program create and execute the thread and and waits for a possible signal to be interrupted by the user.  public. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="40">
+        <label>WithRunnable3_3</label>
+        <link refid="class_with_runnable3__3"/>
+        <childnode refid="41" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="41">
+        <label>Runnable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="42">
+        <label>WithRunnable3_3</label>
+        <link refid="class_with_runnable3__3"/>
+        <childnode refid="43" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="43">
+        <label>Runnable</label>
+      </node>
+    </collaborationgraph>
+    <location file="src/WithRunnable3_3.java" line="7" column="1" bodyfile="src/WithRunnable3_3.java" bodystart="7" bodyend="57"/>
+    <listofallmembers>
+      <member refid="class_with_runnable3__3_1a2892d69fe3a786d4c69642f971d8706d" prot="public" virt="non-virtual"><scope>WithRunnable3_3</scope><name>getSignal</name></member>
+      <member refid="class_with_runnable3__3_1ab7351a85b08bbe7e3e8be6e112a4f124" prot="public" virt="non-virtual"><scope>WithRunnable3_3</scope><name>run</name></member>
+      <member refid="class_with_runnable3__3_1a20abc6ac9974a79ed3aac2578ed7754e" prot="public" virt="non-virtual"><scope>WithRunnable3_3</scope><name>sendSignal</name></member>
+      <member refid="class_with_runnable3__3_1ab788244cc7736e2485ec32cb48ea1572" prot="private" virt="non-virtual"><scope>WithRunnable3_3</scope><name>signal</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

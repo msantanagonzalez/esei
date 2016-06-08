@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir">
+    <compoundname>src</compoundname>
+    <innerfile refid="_basic_frame_8java">BasicFrame.java</innerfile>
+    <innerfile refid="main_8java">main.java</innerfile>
+    <innerfile refid="_thread_panel_8java">ThreadPanel.java</innerfile>
+    <innerfile refid="_with_runnable1__2_8java">WithRunnable1_2.java</innerfile>
+    <innerfile refid="_with_runnable1__3_8java">WithRunnable1_3.java</innerfile>
+    <innerfile refid="_with_runnable2__1_8java">WithRunnable2_1.java</innerfile>
+    <innerfile refid="_with_runnable2__2_8java">WithRunnable2_2.java</innerfile>
+    <innerfile refid="_with_runnable2__4_8java">WithRunnable2_4.java</innerfile>
+    <innerfile refid="_with_runnable2__6_8java">WithRunnable2_6.java</innerfile>
+    <innerfile refid="_with_runnable3__2_8java">WithRunnable3_2.java</innerfile>
+    <innerfile refid="_with_runnable3__3_8java">WithRunnable3_3.java</innerfile>
+    <innerfile refid="_with_thread1__2_8java">WithThread1_2.java</innerfile>
+    <innerfile refid="_with_thread1__3_8java">WithThread1_3.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/"/>
+  </compounddef>
+</doxygen>

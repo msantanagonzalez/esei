@@ -1,0 +1,49 @@
+----- Matriz 10x10 -----
+|Type:1|
+|Using Threads:false|
+|Time:117535716ns|
+
+|Threads: DEFAULT| (100)
+|Using Threads:true|
+|Time:7126553ns|
+
+|Threads:50|
+|Using Threads:true|
+|Time:12157723ns|
+
+|Type:2|
+|Using Threads:false|
+|Time:2841027ns|
+
+|Threads: DEFAULT (10)| 
+|Using Threads:true|
+|Time:4501105ns|
+
+|Threads:5|
+|Using Threads:true|
+|Time:5747202ns|
+
+----- Matriz 50x50 -----
+|Type:1|
+|Using Threads:false|
+|Time:76842759ns|
+
+|Threads: DEFAULT (50x50)| 
+|Using Threads:true|
+|Time:59980195ns|
+
+|Threads:500|
+|Using Threads:true|
+|Time:116469664ns|
+
+|Type:2|
+|Using Threads:false|
+|Time:29562789ns|
+
+|Threads: DEFAULT| (50)
+|Using Threads:true|
+|Time:41134184ns|
+
+|Threads:25|
+|Using Threads:true|
+|Time:43842546ns|

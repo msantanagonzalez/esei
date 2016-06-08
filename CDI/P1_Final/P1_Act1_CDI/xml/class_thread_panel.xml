@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="class_thread_panel" kind="class" language="Java" prot="public">
+    <compoundname>ThreadPanel</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">JPanel</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_thread_panel_1ae94219de5c70bf7f6016778a826f8b51" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ThreadPanel.id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ThreadPanel.java" line="16" column="1" bodyfile="src/ThreadPanel.java" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_thread_panel_1aa46c04a4e692d157187ea63fb77bde9c" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long ThreadPanel.initTime</definition>
+        <argsstring></argsstring>
+        <name>initTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Time when the first thread started to run </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ThreadPanel.java" line="18" column="1" bodyfile="src/ThreadPanel.java" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_thread_panel_1adb4b404525c87a4158e739a808f614fd" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long ThreadPanel.endTime</definition>
+        <argsstring></argsstring>
+        <name>endTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Time when the last thread finished the execution </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ThreadPanel.java" line="20" column="1" bodyfile="src/ThreadPanel.java" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_thread_panel_1a7a53e9bf46e5fe73255e530272977f3b" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long ThreadPanel.maxTime</definition>
+        <argsstring></argsstring>
+        <name>maxTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ThreadPanel.java" line="21" column="1" bodyfile="src/ThreadPanel.java" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_thread_panel_1a64a4800a3bd46f00407735b30674025b" prot="private" static="no" mutable="no">
+        <type>ArrayList&lt; ArrayList&lt; Long &gt; &gt;</type>
+        <definition>ArrayList&lt;ArrayList&lt;Long&gt; &gt; ThreadPanel.threadTimes</definition>
+        <argsstring></argsstring>
+        <name>threadTimes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ThreadPanel.java" line="22" column="1" bodyfile="src/ThreadPanel.java" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_thread_panel_1ac1b6921c24276c643a566e06b87b7d4c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ThreadPanel.ThreadPanel</definition>
+        <argsstring>(int id, long init, long end, long max, ArrayList&lt; ArrayList&lt; Long &gt;&gt; times)</argsstring>
+        <name>ThreadPanel</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>init</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>end</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>max</declname>
+        </param>
+        <param>
+          <type>ArrayList&lt; ArrayList&lt; Long &gt;&gt;</type>
+          <declname>times</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="class_thread_panel" kindref="compound">ThreadPanel</ref> Constructor. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+<parametername>init</parametername>
+<parametername>end</parametername>
+<parametername>max</parametername>
+<parametername>times</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>public </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ThreadPanel.java" line="30" column="1" bodyfile="src/ThreadPanel.java" bodystart="30" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_thread_panel_1abb56e5001767700781bd6f4984738781" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ThreadPanel.paintComponent</definition>
+        <argsstring>(Graphics g)</argsstring>
+        <name>paintComponent</name>
+        <param>
+          <type>Graphics</type>
+          <declname>g</declname>
+        </param>
+        <briefdescription>
+<para>void paintComponent. Creates the Graphic components on the Frame object </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>g</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void  public </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+<para>Shows the Default panel information</para><para>Shows the panel information and builds the graphic components</para><para>Get the Thread time information</para><para>Builds a graphic string on the panel</para><para>Draws the x-axis line on each panel</para><para>Draws the x-axis values on each panel</para><para>Creates the first point on the x-axis</para><para>Creates the second point on the x-axis</para><para>Unification of first and second point on the x-axis </para>        </inbodydescription>
+        <location file="src/ThreadPanel.java" line="45" column="1" bodyfile="src/ThreadPanel.java" bodystart="45" bodyend="122"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Creates a JPanel object  public. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="9">
+        <label>JPanel</label>
+      </node>
+      <node id="8">
+        <label>ThreadPanel</label>
+        <link refid="class_thread_panel"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="11">
+        <label>JPanel</label>
+      </node>
+      <node id="10">
+        <label>ThreadPanel</label>
+        <link refid="class_thread_panel"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/ThreadPanel.java" line="15" column="1" bodyfile="src/ThreadPanel.java" bodystart="15" bodyend="123"/>
+    <listofallmembers>
+      <member refid="class_thread_panel_1adb4b404525c87a4158e739a808f614fd" prot="private" virt="non-virtual"><scope>ThreadPanel</scope><name>endTime</name></member>
+      <member refid="class_thread_panel_1ae94219de5c70bf7f6016778a826f8b51" prot="private" virt="non-virtual"><scope>ThreadPanel</scope><name>id</name></member>
+      <member refid="class_thread_panel_1aa46c04a4e692d157187ea63fb77bde9c" prot="private" virt="non-virtual"><scope>ThreadPanel</scope><name>initTime</name></member>
+      <member refid="class_thread_panel_1a7a53e9bf46e5fe73255e530272977f3b" prot="private" virt="non-virtual"><scope>ThreadPanel</scope><name>maxTime</name></member>
+      <member refid="class_thread_panel_1abb56e5001767700781bd6f4984738781" prot="public" virt="non-virtual"><scope>ThreadPanel</scope><name>paintComponent</name></member>
+      <member refid="class_thread_panel_1ac1b6921c24276c643a566e06b87b7d4c" prot="public" virt="non-virtual"><scope>ThreadPanel</scope><name>ThreadPanel</name></member>
+      <member refid="class_thread_panel_1a64a4800a3bd46f00407735b30674025b" prot="private" virt="non-virtual"><scope>ThreadPanel</scope><name>threadTimes</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
